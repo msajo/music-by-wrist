@@ -1,0 +1,15 @@
+body{
+    background-size: cover;
+}
+.heading{
+    margin-top: 0px;
+    width: 100%;
+    font-size: 25px;
+}
+canvas{
+    
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: rgb(193, 37, 255);
+
+}
