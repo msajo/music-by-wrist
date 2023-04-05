@@ -26,11 +26,10 @@ function draw(){
     circle(leftWristX,leftWristY,30);
     Harry_potter.play();
     Song_stat = Harry_potter.isPlaying();
-    
-    }
     if(Song_stat = Harry_potter.play()){
         Song_stat = petar_pan.stop();
         document.getElementById("song_names").innerHTML = "the name of the playing song is "+Song_stat;
+    }
     }
 }
 function gotPoses(results){
